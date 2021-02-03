@@ -1,5 +1,7 @@
 .myPosts{
 	padding: 20px;
+	color: navy;
+  text-transform: uppercase;
 }
 .typingArea{
 	width: 100%;
