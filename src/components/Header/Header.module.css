@@ -1,0 +1,16 @@
+.header {
+	grid-area: h;
+	background-color: aliceblue;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header img {
+	height: 100%;
+}
+
+.loginBlock {
+	display: flex;
+	align-items: center;
+}
