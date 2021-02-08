@@ -17,17 +17,10 @@
 	padding: 20px;
 	border-radius: 5px;
 }
-.btnContainer{
+.likeButtonContainer{
 	display: flex;
-	align-items: end;
+	align-items: center;
 }
-.btn{
-	background-color: lightgoldenrodyellow;
-	border: none;
-	background-image: "url(+\"../../../.././img/heart-button.svg\")";
-	outline: none;
-	cursor: pointer;
-}
-.btn:hover{
-	background-image: "url(+\"../../../.././img/favourite-heart-button.svg\")";
+.likesCount {
+	color: #999999;
 }

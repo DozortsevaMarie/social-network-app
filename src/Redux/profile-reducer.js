@@ -1,9 +1,7 @@
 const ADD_POST = "ADD_POST";
 
 let initialState = {
-	posts: [
-		{id: 1, message: 'Hello', likesCount: 1}
-	],
+	posts: [],
 	profile: null,
 	status: '',
 }
@@ -29,5 +27,6 @@ const profileReducer = (state = initialState, action) => {
 
 
 export const addPostActionCreator = (newPostText) => ({type: ADD_POST, newPostText});
+
 
 export default profileReducer;
