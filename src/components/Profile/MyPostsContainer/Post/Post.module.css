@@ -1,0 +1,26 @@
+.post{
+	display: flex;
+	padding: 20px;
+	justify-content: space-between;
+	max-width: 50%;
+}
+.photo {
+	width: 50px;
+	border-radius: 3px;
+}
+.postText{
+	height: 1.5em;
+	background-color: #fff;
+	width: 60%;
+	display:flex;
+	align-items: center;
+	padding: 20px;
+	border-radius: 5px;
+}
+.likeButtonContainer{
+	display: flex;
+	align-items: center;
+}
+.likesCount {
+	color: #999999;
+}
